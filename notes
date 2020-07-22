@@ -1,0 +1,47 @@
+{
+  id: '106076781983322400862',
+  displayName: 'Ryan Parker',
+  name: { familyName: 'Parker', givenName: 'Ryan' },
+  photos: [
+    {
+      value: 'https://lh3.googleusercontent.com/a-/AOh14GgXLLH1HwlFSrObJ6JDnYlJuTQYzLRw62MZRJEqFg'
+    }
+  ],
+  provider: 'google',
+  _raw: '{\n' +
+    '  "sub": "106076781983322400862",\n' +
+    '  "name": "Ryan Parker",\n' +
+    '  "given_name": "Ryan",\n' +
+    '  "family_name": "Parker",\n' +
+    '  "picture": "https://lh3.googleusercontent.com/a-/AOh14GgXLLH1HwlFSrObJ6JDnYlJuTQYzLRw62MZRJEqFg",\n' +
+    '  "locale": "en"\n' +
+    '}',
+  _json: {
+    sub: '106076781983322400862',
+    name: 'Ryan Parker',
+    given_name: 'Ryan',
+    family_name: 'Parker',
+    picture: 'https://lh3.googleusercontent.com/a-/AOh14GgXLLH1HwlFSrObJ6JDnYlJuTQYzLRw62MZRJEqFg',
+    locale: 'en'
+  }
+}
+
+
+//facebook
+
+
+{
+  id: '113129810483343',
+  username: undefined,
+  displayName: 'Ryan Parker',
+  name: {
+    familyName: undefined,
+    givenName: undefined,
+    middleName: undefined
+  },
+  gender: undefined,
+  profileUrl: undefined,
+  provider: 'facebook',
+  _raw: '{"name":"Ryan Parker","id":"113129810483343"}',
+  _json: { name: 'Ryan Parker', id: '113129810483343' }
+}
