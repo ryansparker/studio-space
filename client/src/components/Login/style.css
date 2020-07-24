@@ -48,14 +48,22 @@ background-repeat: no-repeat;
     padding-top: 5%;
     align-content: center;
     justify-content: center;
-    color: white
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
   }
 
 
   .btn {
     background-color: rgba(0, 0, 255, 0.35);
     padding: 10px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .btn:last-child {
+    margin-bottom: 0px;
   }
 
   .btn:hover {
@@ -64,10 +72,7 @@ background-repeat: no-repeat;
 
   }
 
-  .btn a{
-    color: white;
-  }
-
+  
   .login-footer {
     padding-bottom: 20px;
     margin-top: auto;

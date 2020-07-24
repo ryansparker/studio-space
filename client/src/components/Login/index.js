@@ -8,39 +8,36 @@ function Login() {
 return(
 
 
-    <div>
-        {/* <Nav /> */}
+    
+        
         <div className="login">
       
        
             <div className="login-left">
 
-            <div className="login-logo">
-            
-                <img src='/logo.svg' /> 
-            
-                <h1>studio space</h1>
-          
-               
-            </div>
+          <Nav />
                
             </div>
             <div className="login-right">
                 <div className="login-signin">
                         <h2>Sign In</h2>
-                        <div className="btn">
-                            <a href='http://localhost:8080/auth/google'>Log in with Google</a>
-                        </div>
-                        <div className="btn">
-                            <a href="http://localhost:8080/auth/facebook">Log in with Facebook</a>
-                        </div>
+                       
+                            <a href='http://localhost:8080/auth/google' className="btn">
+                                <span>Log in with Google</span>
+                            </a>
+                        
+                        
+                            <a href="http://localhost:8080/auth/facebook" className="btn">
+                                <span>Log in with Facebook</span>
+                            </a>
+                       
                 </div>
                 <div className="login-footer">                        
                             © studio space 2020
                 </div>
             </div>
         </div>
-    </div>
+    
 
 
 )

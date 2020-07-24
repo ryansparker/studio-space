@@ -1,0 +1,73 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboard-contents {
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+
+  }
+h3 {
+    font-size: 3em;
+}
+  .dashboard-tag {
+      padding: 30px;
+    
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      color: blue;
+      margin-left: 10%;
+  }
+  
+  
+  
+   
+  
+    .dashboard-options {
+      background-color: rgba(0, 0, 255, 0.25);
+      padding: 30px;
+      margin-left: 5%;
+      margin-right: 10%;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+      
+    }
+  
+  
+    .btn {
+      background-color: rgba(0, 0, 255, 0.35);
+      padding: 10px;
+      margin-bottom: 20px;
+      color: white;
+    }
+  
+    .btn:last-child {
+      margin-bottom: 0px;
+    }
+  
+    .btn:hover {
+      background-color: blue;
+      transition:all 0.3s ease;
+  
+    }
+  
+    
+    .dashboard-footer {
+      padding-bottom: 20px;
+      margin-top: auto;
+      text-align: center;
+      color: rgb(97, 96, 96);
+  
+    }

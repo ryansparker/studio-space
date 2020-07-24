@@ -7,11 +7,14 @@ function Nav(){
     
     return(
 
-        <nav className="flex-nav">
-            <ul>
-                <li><a href="" className="nav-logo">studio space</a></li>
-            </ul>
-        </nav>
+        <div className="login-logo">
+            
+                <img src='/logo.svg' /> 
+            
+                <h1>studio space</h1>
+          
+               
+            </div>
 
     )
 }
