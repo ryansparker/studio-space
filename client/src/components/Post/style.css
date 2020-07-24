@@ -1,0 +1,166 @@
+.post {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+.post-contents{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 30px;
+margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+.state-zip {
+    display: flex;
+    justify-content: stretch;
+    
+}
+
+.state-zip #zip {
+   margin-left: 10px;
+}
+
+.checkbox input{
+    margin-top: 20px;
+}
+input[type=text], select, textarea {
+width: 100%;
+padding: 1em;
+border: 1px solid #ACACAC;
+}
+
+input[type=text]:focus, textarea:focus {
+    outline: 3px solid #ACACAC;
+}
+
+.post-contents .error-field {
+    border: 3px solid #FFB3B3;
+}
+
+.error {
+    width: fit-content;
+    background: #FFB3B3;
+    
+    padding: .3em .5em;
+    font-size: .85em;
+    font-weight: bold;
+    margin-top: -.1em;
+}
+select {
+appearance:none;
+-webkit-appearance:none;
+-moz-appearance:none;
+-ms-appearance:none;
+background:url('http://www.free-icons-download.net/images/small-down-arrow-icon-15593.png');
+background-repeat: no-repeat;
+background-size:16px 17px;
+background-position: right;
+background-origin: content-box;
+}
+
+.cta {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: blue;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+
+.search-form > * {
+    border:0px;
+    padding:10px;
+    background:white;
+    line-height: 50px;
+    border-radius: 0px;
+    outline: 0;
+    align-self: center;
+    border: 0px;
+    border-right: 1px solid blue;
+}
+
+.search-form > *:last-child {
+    border-right:0;
+}
+
+.search-form {
+    display: flex;
+    border: 1px solid blue;
+}
+
+.search-form input[type="submit"] {
+    background:#FF5A5F;
+    border-top: 1px solid #FF5A5F;
+    border-bottom: 1px solid #FF5A5F;
+    color:white;
+  }
+
+  h3 {
+      font-size: 3em;
+  }
+
+    
+
+    
+
+    
+      .dashboard-options {
+        background-color: rgba(0, 0, 255, 0.25);
+        padding: 30px;
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        
+      }
+    
+    
+      .btn {
+        background-color: rgba(0, 0, 255, 0.35);
+        padding: 10px;
+        margin-bottom: 20px;
+        color: white;
+      }
+    
+      .btn:last-child {
+        margin-bottom: 0px;
+      }
+    
+      .btn:hover {
+        background-color: blue;
+        transition:all 0.3s ease;
+    
+      }
+    
+      
+      .dashboard-footer {
+        padding-bottom: 20px;
+        margin-top: auto;
+        text-align: center;
+        color: rgb(97, 96, 96);
+    
+      }

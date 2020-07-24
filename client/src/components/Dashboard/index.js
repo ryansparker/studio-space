@@ -16,17 +16,17 @@ function Dashboard() {
 
         <div className="dashboard-contents">
         <div className="dashboard-tag">
-           <h3>We connect artists with short-term space solutions to produce their work.</h3>
+           <h3>We connect artists with short-term studio solutions to produce and present their work.</h3>
         </div>
        
 
             <div className="dashboard-options">
                     <h2>Hello, Name</h2>
                    
-                        <a href='http://localhost:8080/auth/google' className="btn">
+                        <a href='http://localhost:3000/search' className="btn">
                             <span>Find a Space</span>
                         </a>
-                        <a href="http://localhost:8080/auth/facebook" className="btn">
+                        <a href="http://localhost:3000/post" className="btn">
                             <span>Post a Space</span>
                         </a>
             </div>
