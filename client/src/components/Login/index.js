@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from '../Nav'
 import './style.css'
 
 
@@ -6,14 +7,41 @@ function Login() {
 
 return(
 
-<div>
-    <h1>Studio Space</h1>
+
     <div>
-        <h2>Sign in</h2>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
+        {/* <Nav /> */}
+        <div className="login">
+      
+       
+            <div className="login-left">
+
+            <div className="login-logo">
+            
+                <img src='/logo.svg' /> 
+            
+                <h1>studio space</h1>
+          
+               
+            </div>
+               
+            </div>
+            <div className="login-right">
+                <div className="login-signin">
+                        <h2>Sign In</h2>
+                        <div className="btn">
+                            <a href='http://localhost:8080/auth/google'>Log in with Google</a>
+                        </div>
+                        <div className="btn">
+                            <a href="http://localhost:8080/auth/facebook">Log in with Facebook</a>
+                        </div>
+                </div>
+                <div className="login-footer">                        
+                            © Studio Space 2020
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+
 
 )
 

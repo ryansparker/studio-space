@@ -32,7 +32,7 @@ function service(app) {
     passport.authenticate('facebook', { session: false, failureRedirect: '/login' }),
     function (req, res) {
       // Successful authentication, redirect home.
-      res.redirect('/');
+      res.redirect(app.config.logInFacebook.successRedirect);
     });
 }
 

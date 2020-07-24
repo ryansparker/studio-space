@@ -20,7 +20,7 @@
     "uuid": "^8.2.0"
   },
   "scripts": {
-    "start:server": "nodemon src/server",
+    "start:server": "nodemon src",
     "start:client": "react-scripts start",
     "build:client": "react-scripts build",
     "test:client": "react-scripts test",

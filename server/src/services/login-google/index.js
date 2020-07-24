@@ -28,7 +28,7 @@ function service(app) {
         passport.authenticate('google', { session: false, failureRedirect: '/login' }),
         function (req, res) {
             // Successful authentication, redirect home.
-            res.redirect('/');
+            res.redirect(app.config.logInGoogle.successRedirect);
         });
 }
 
