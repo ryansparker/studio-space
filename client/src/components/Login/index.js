@@ -36,7 +36,7 @@ return(
                         </div>
                 </div>
                 <div className="login-footer">                        
-                            © Studio Space 2020
+                            © studio space 2020
                 </div>
             </div>
         </div>
