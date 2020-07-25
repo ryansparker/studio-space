@@ -35,10 +35,15 @@ async function service(app) {
             }
             await accounts.insertOne(newAccount)
             return newAccount
-        }
+        },
 
+        async insertSpace(space) {
+            const spaces = db.collection('spaces') 
+            return spaces.insertOne(space)
+        }
     }
 }
+
 
 
 module.exports = service
