@@ -3,7 +3,7 @@ import "./style.css"
 
 
 
-function Nav() {
+function NavWithPost() {
 
     return (
 
@@ -15,7 +15,11 @@ function Nav() {
                   <img src='/logo.svg' />  </a>
                     <h1>studio space</h1>
                    
+                    <div className="post-btn">
                 
+                    <a href="http://localhost:3000/post">
+                        <h2>Post</h2></a>
+                </div>
                 </div>
            
 
@@ -25,4 +29,4 @@ function Nav() {
     )
 }
 
-export default Nav
+export default NavWithPost

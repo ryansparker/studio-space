@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../Nav'
 import Footer from '../Footer'
 import './style.css'
-import {urlServer} from '../../util/contants'
+import {urlServer} from '../../util/constants'
 
 function Post() {
 
@@ -132,8 +132,6 @@ function Post() {
 
                     <h2>What other information would you like to add?</h2>
                     <textarea for="info" name='info'></textarea>
-
-                    <h2>Upload a photo:</h2>
 
 
                     <button class="cta" type='submit'>Post Space</button>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../Nav'
+import NavWithPost from '../NavWithPost'
 import Footer from '../Footer'
 import Post from '../Post'
 import Search from '../Search'
@@ -12,10 +12,11 @@ function Dashboard() {
         <div className="dashboard">
       
        
-      <Nav />
+      <NavWithPost />
 
-        <div className="dashboard-contents">
-        <div className="dashboard-tag">
+        {/* <div className="dashboard-contents"> */}
+            <Search />
+        {/* <div className="dashboard-tag">
            <h3>We connect artists with short-term studio solutions to produce and present their work.</h3>
         </div>
        
@@ -30,7 +31,7 @@ function Dashboard() {
                             <span>Post a Space</span>
                         </a>
             </div>
-            </div>
+            </div> */}
         <Footer />
     </div>
         

@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
+
   }
   
   .login-logo h1{
@@ -16,6 +17,16 @@
     width: 40px;
     height: 40px;
     
+  }
+
+  .post-btn {
+
+    margin-left: auto;
+    padding-right: 100px;
+  }
+
+  .post-btn h2{
+    margin-top: 35px;
   }
 
   
