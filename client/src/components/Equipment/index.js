@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Equipment() {
+function Equipment(props) {
     return (
     <div>
-        <input type="checkbox" name="sprayBooth" id="sprayBooth" />
-        <label for="sprayBooth" id="checkbox">
-            Spray Booth
+        <input type="checkbox" name={props.name} id={props.name} />
+        <label for={props.name} id="checkbox">
+            {props.label}
         </label>
     </div>
     )

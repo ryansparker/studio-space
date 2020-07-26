@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Amenities() {
+function Amenities(props) {
     return (
     <div>
-        <input type="checkbox" name="wifi" id="wifi" />
-        <label for="wifi" id="checkbox">
-            WIFI
+        <input type="checkbox" name={props.name} id={props.name} />
+        <label for={props.name} id="checkbox">
+            {props.label}
         </label>
     </div>
     )
