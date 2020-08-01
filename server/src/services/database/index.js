@@ -1,6 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const { v4: uuidv4 } = require('uuid');
+const { getHeapSpaceStatistics } = require('v8');
 
 async function service(app) {
 
@@ -40,6 +41,11 @@ async function service(app) {
         async insertSpace(space) {
             const spaces = db.collection('spaces') 
             return spaces.insertOne(space)
+        },
+
+        async getSpaces(query) {
+            const spaces = db.collection('spaces')
+            return spaces.find()
         }
     }
 }

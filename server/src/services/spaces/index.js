@@ -8,6 +8,23 @@ const squareFootage = ["50", "100", "200", "400", "500"]
 
 function service(app) {
 
+//api created to get the spaces database!!!
+    app.http.get('/spaces',async function (req, res){
+        const results= []
+        // return res.status(200).json(await app.database.getSpaces())
+        const cursor = await app.database.getSpaces()
+       cursor.forEach((doc) => {
+           results.push(doc)
+       }, (err) => {
+           if (err!==null){
+               console.log(err)
+               return res.status(500).send('Internal Error')
+           }
+           res.status(200).json(results)
+       })
+      
+    })
+
     app.http.post('/spaces', async function (req, res) {
 
         const except = e => {

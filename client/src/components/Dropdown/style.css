@@ -1,0 +1,25 @@
+.boop {
+    background-color: lightcoral;
+     padding: 10px;
+  
+   
+}
+  .dropdown-items {
+     
+      top: 250px;
+      padding: 10px;
+      position: absolute;
+      background-color: lawngreen;
+  }
+
+  .item {
+      margin: 8px;
+  }
+
+  .dropdown {
+      display: none
+  }
+  .dropdown-visible {
+      display: initial;
+  }
+

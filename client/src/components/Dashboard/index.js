@@ -1,40 +1,32 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import NavWithPost from '../NavWithPost'
 import Footer from '../Footer'
 import Post from '../Post'
 import Search from '../Search'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import SpacesList from '../SpacesList'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {urlServer} from '../../util/constants'
 import './style.css'
 
 function Dashboard() {
+
+    const [spaces, setSpaces] = useState([])
+    useEffect(async() => {
+        const results = await fetch(`${urlServer}/spaces`).then((results)=> results.json())
+        console.log(results)
+        setSpaces(results)
+    }, [])
+
+
     return (
-        
+
         <div className="dashboard">
-      
-       
-      <NavWithPost />
-
-        {/* <div className="dashboard-contents"> */}
+            <NavWithPost />
             <Search />
-        {/* <div className="dashboard-tag">
-           <h3>We connect artists with short-term studio solutions to produce and present their work.</h3>
+            <SpacesList spaces ={ spaces }/>
+            <Footer />
         </div>
-       
 
-            <div className="dashboard-options">
-                    <h2>Hello, Name</h2>
-                   
-                        <a href='http://localhost:3000/search' className="btn">
-                            <span>Find a Space</span>
-                        </a>
-                        <a href="http://localhost:3000/post" className="btn">
-                            <span>Post a Space</span>
-                        </a>
-            </div>
-            </div> */}
-        <Footer />
-    </div>
-        
     )
 }
 
