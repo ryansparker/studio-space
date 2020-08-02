@@ -22,7 +22,7 @@ function Dashboard() {
 
         <div className="dashboard">
             <NavWithPost />
-            <Search />
+            <Search setSpaces= { setSpaces }/>
             <SpacesList spaces ={ spaces }/>
             <Footer />
         </div>

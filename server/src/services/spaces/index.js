@@ -12,7 +12,7 @@ function service(app) {
     app.http.get('/spaces',async function (req, res){
         const results= []
         // return res.status(200).json(await app.database.getSpaces())
-        const cursor = await app.database.getSpaces()
+        const cursor = await app.database.getSpaces(req.query)
        cursor.forEach((doc) => {
            results.push(doc)
        }, (err) => {
