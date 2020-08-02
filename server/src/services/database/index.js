@@ -10,6 +10,8 @@ async function service(app) {
     const url = app.config.database.dbURL
     const name = app.config.database.dbName
 
+    console.log("lookie here!", url, name)
+
     const dbConnect = await MongoClient.connect(url);
     const db = dbConnect.db(name)
 
