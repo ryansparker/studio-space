@@ -1,4 +1,5 @@
-export const urlServer = 'http://localhost:8080'
+export const urlServer = process.env.NODE_ENV === 'production' ? 
+'https://shrouded-savannah-32397.herokuapp.com' : 'http://localhost:8080'
 
 export const amenities = [
     {   name: "wifi",
