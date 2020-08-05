@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../Nav'
+import {urlServer} from '../../util/constants'
 import './style.css'
 
 
@@ -22,12 +23,12 @@ return(
                 <div className="login-signin">
                         <h2>Sign In</h2>
                        
-                            <a href='http://localhost:8080/auth/google' className="btn">
+                            <a href={`${urlServer}/auth/google`} className="btn">
                                 <span>Log in with Google</span>
                             </a>
                         
-                        
-                            <a href="http://localhost:8080/auth/facebook" className="btn">
+                            
+                            <a href={`${urlServer}/auth/facebook`} className="btn">
                                 <span>Log in with Facebook</span>
                             </a>
                        
