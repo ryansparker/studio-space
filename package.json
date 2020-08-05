@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "cd server; node src",
-    "start:server": "nodemon server/src",
+    "start:server": "cd server; nodemon src",
     "start:client": "react-scripts start",
     "build:client": "react-scripts build",
     "test:client": "react-scripts test",

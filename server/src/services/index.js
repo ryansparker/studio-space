@@ -4,6 +4,7 @@ const healthcheck = require('./healthcheck')
 const google = require('./login-google')
 const facebook = require('./login-facebook')
 const spaces = require('./spaces')
+const static = require("./static")
 
 
 function services(app) {
@@ -13,6 +14,7 @@ function services(app) {
     google(app)
     facebook(app)
     spaces(app)
+    static(app)
 }
 
 

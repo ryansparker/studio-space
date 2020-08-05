@@ -24,7 +24,7 @@ justify-content: start;
 .login-left {
 width: 65%;
 height: 100vh;
-background-image: url("/omar-studio.png") ;
+background-image: url("/static/omar-studio.png") ;
 background-size: cover;
 background-repeat: no-repeat;
 

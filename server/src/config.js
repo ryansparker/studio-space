@@ -18,6 +18,9 @@ module.exports = {
         dbURL: process.env.MONGO_URL,
         dbName: process.env.MONGO_DBNAME
        
+    },
+    static: {
+        clientDir: process.env.STATIC
     }
 
 }
