@@ -1,4 +1,5 @@
 import React from 'react'
+import {urlServer} from '../../util/constants'
 import "./style.css"
 
 
@@ -10,14 +11,14 @@ function NavWithPost() {
         <div>
      
                 <div className="login-logo">
-                <a href="http://localhost:3000/dashboard">
+                <a href={`${urlServer}/dashboard`}>
                 
                   <img src='/logo.svg' />  </a>
                     <h1>studio space</h1>
                    
                     <div className="post-btn">
                 
-                    <a href="http://localhost:3000/post">
+                    <a href={`${urlServer}/post`}>
                         <h2>Post</h2></a>
                 </div>
                 </div>
