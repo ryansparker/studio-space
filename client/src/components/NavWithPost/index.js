@@ -11,10 +11,8 @@ function NavWithPost() {
         <div>
      
                 <div className="login-logo">
-                <a href={`${urlServer}/dashboard`}>
-                
-                  <img src='/logo.svg' />  </a>
-                    <h1>studio space</h1>
+               
+                  <a href={`${urlServer}/dashboard`}><h1>studio space</h1></a>
                    
                     <div className="post-btn">
                 

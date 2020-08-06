@@ -13,8 +13,7 @@ function Nav() {
                 <div className="login-logo">
                 <a href={`${urlServer}/dashboard`}>
                 
-                  <img src='/logo.svg' />  </a>
-                    <h1>studio space</h1>
+                    <h1>studio space</h1></a>
                    
                 
                 </div>

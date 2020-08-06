@@ -61,9 +61,11 @@ console.log(selectedAmenities, selectedEquipment)
             <div className="search-contents">
                 <h2>Search for a Space</h2>
                 <form className="search-form">
+                    <div className="city">
+                    <label for='from'>City</label>
                     <div>
-                        <label for='from'>City</label>
                         <input type="text" placeholder="Where?" value={city} onChange={handleChange}/>
+                    </div>
                     </div>
 
 

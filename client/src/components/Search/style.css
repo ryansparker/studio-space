@@ -3,8 +3,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: lavender;
 }
-  
+ .city {
+   flex-direction: column;
+ } 
 .search-contents{
     align-items: center;
     margin: 0 auto;
