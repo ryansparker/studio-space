@@ -1,6 +1,90 @@
 ## Studio Space
 
-An app to connect artists with working space.
+------------------
+## Table of contents
+
+1. [About](#about)
+2. [Inspiration](#inspiration)
+3. [Usage](#usage)
+4. [Screenshots](#screenshots)
+5. [Technologies](#technologies)
+6. [Setup](#setup)
+7. [Links](#links)
+8. [To-do List](#todo)
+9. [Status](#status)
+10. [Credits](#credits)
+
+------------------
+## About <a name="about"></a>
+
+An app connecting artists with short-term working spaces.
+
+------------------
+## Inspiration <a name="inspiration"></a>
+
+As a visual artist who has traveled a lot for residencies and projects, my life has been at times been itinerant. I've had times when I needed a space to work in, when I have had an exhibition to prepare for and not enough space or the right kind of space in my living situation. It's difficult to find a working studio, especially one where I don't want to commit to a lease. 
+
+Studio Space solves this problem by allowing property owners to rent out spaces for artists to work in. These spaces could be an empty storefont, warehouse, a garage space, or a studio sublet——any place that's unused could be a great working space for an artist and an income source for property owners.
+
+------------------
+## Usage <a name="usage"></a>
+
+### Artists
+* Log in with Google or Facebook
+* Search and view rentable spaces
+
+
+### Renters
+* Log in with Google or Facebook
+* Post rentable spaces with amenities/equipment/description
+
+------------------
+## Screenshots <a name="screenshots"></a>
+First Page: 
+![image description](./public/images/screenshots-breaking-bread_0001.jpg)
+
+
+
+------------------
+## Technologies <a name="technologies"></a>
+
+* Express
+* Passport
+* MongoDB
+* Mongoose
+
+------------------
+## Setup <a name="setup"></a>
+
+Describe how to install / setup your local environment / add link to demo version.
+
+------------------
+## Links <a name="links"></a>
+
+* heroku: [https://shrouded-savannah-32397.herokuapp.com/login](https://shrouded-savannah-32397.herokuapp.com/login)
+* github: [https://github.com/ryansparker/studio-space](https://github.com/ryansparker/studio-space)
+
+------------------
+## To-do list (future additions): <a name="todo"></a>
+
+* Map with space locations
+* photo uploads for spaces
+* Artist services postings
+* Curatorial services postings
+
+------------------
+## Status <a name="status"></a>
+
+Project is: in progress.
+
+------------------
+## Credits <a name="credits"></a>
+
+## Copyright and Collaborators
+
+© 2020 Ryan Parker, Shane Parker
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
