@@ -30,38 +30,28 @@ Studio Space solves this problem by allowing property owners to rent out spaces 
 ## Usage <a name="usage"></a>
 
 ### Artists
-* Create a membership
+* Log in with Google or Facebook
+* Search and view rentable spaces
+
 
 ### Renters
-* Create an membership account/log in
-* Add member general and contact information
-* View food inventory
-* Claim items from food inventory
-* Request items not in inventory
+* Log in with Google or Facebook
+* Post rentable spaces with amenities/equipment/description
 
 ------------------
 ## Screenshots <a name="screenshots"></a>
 First Page: 
 ![image description](./public/images/screenshots-breaking-bread_0001.jpg)
 
-Login: 
-![image description](./public/images/screenshots-breaking-bread_0002.jpg)
 
-Supplier Donations: 
-![image description](./public/images/screenshots-breaking-bread_0000.jpg)
-
-Charity Requests: 
-![image description](./public/images/screenshots-breaking-bread_0003.jpg)
 
 ------------------
 ## Technologies <a name="technologies"></a>
 
 * Express
 * Passport
-* MySQL
-* Sequelize
-* HandleBars
-* Bootstrap
+* MongoDB
+* Mongoose
 
 ------------------
 ## Setup <a name="setup"></a>
@@ -71,16 +61,16 @@ Describe how to install / setup your local environment / add link to demo versio
 ------------------
 ## Links <a name="links"></a>
 
-* heroku: [https://breaking-bread-donate.herokuapp.com/](https://breaking-bread-donate.herokuapp.com/)
-* github: [https://github.com/ksmera01/Breaking-Bread](https://github.com/ksmera01/Breaking-Bread)
+* heroku: [https://shrouded-savannah-32397.herokuapp.com/login](https://shrouded-savannah-32397.herokuapp.com/login)
+* github: [https://github.com/ryansparker/studio-space](https://github.com/ryansparker/studio-space)
 
 ------------------
 ## To-do list (future additions): <a name="todo"></a>
 
-* Search/ filter requests (by location/ amount/ food type etc.)
-* Add info on delivery/pickup preferences, distance radius, accept EBT/ WIC/ SNAP, tax identification number
-* View map of requests
-* Use Yelp API to calculate charities' distance
+* Map with space locations
+* photo uploads for spaces
+* Artist services postings
+* Curatorial services postings
 
 ------------------
 ## Status <a name="status"></a>
@@ -90,15 +80,9 @@ Project is: in progress.
 ------------------
 ## Credits <a name="credits"></a>
 
-We appreciate all of our classmates who added their insights to our code. 
-
-Great thanks go to our tutors who have consistently and sincerely sought to help us: Meguel Chavez, Justin Rice, and Simon Rennocks.
-
-As always, we owe a huge debt of gratitude to our Teaching Assistants and Instructor, Tom Woods, Artan "Tani" Muzhaqi, and Anthony "Ant" Briglia for all of their assistance while they were both on and off duty (so to speak).
-
 ## Copyright and Collaborators
 
-© 2020 Josh Benjamin, Esther N, Ryan Parker, Kevin Smeraglio
+© 2020 Ryan Parker, Shane Parker
 
 
 
